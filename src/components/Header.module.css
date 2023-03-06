@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.firstIcon {
+    width: 7rem;
+    position: absolute;
+    top: 15px;
+    right: 33px;
+}

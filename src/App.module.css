@@ -1,0 +1,53 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: -1px;
+    margin-top: 50;
+
+    position: relative;
+}
+
+
+
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+.items:nth-child(1) {
+    margin-right: 100px;
+}
+
+.items:nth-last-child() {
+    margin-left: 100px
+}
+
+/* .firstIcon {} */
+
+/* .icon {
+    width: 30px; */
+
+
+.icon {
+    width: 120px !important;
+    height: 90px;
+    position: absolute;
+    top: 45%;
+    left: 33px;
+
+}
+
+.wineicon {
+    width: 70px;
+    height: 80px;
+    position: absolute;
+
+
+    top: 26%;
+    right: 37%;
+}

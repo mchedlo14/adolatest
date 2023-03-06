@@ -1,0 +1,60 @@
+.section {
+    display: flex;
+    font-family: 'Jacques Francois Shadow';
+    /* font-size: 16px; */
+    padding: 0;
+}
+
+
+.hero {
+    margin-bottom: 25px;
+    /* margin-bottom: 10px; */
+}
+
+.header {
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+
+.content {
+    height: 25px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+
+    /* font-size: 12px; */
+    padding-right: 20px;
+    margin: 0;
+    align-items: center;
+}
+
+.name {
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 12px;
+}
+
+.number {
+    font-family: 'Inria Serif', serif;
+    font-size: 12px;
+}
+
+/* .icon {
+    width: 30px;
+} */
+
+@media(max-width:420px) {
+    .name {
+        font-size: 10px;
+    }
+
+    .content {
+        padding-right: 10px;
+    }
+
+}
+
+@media(max-width:390px) {
+    .content {
+        padding-right: 0px;
+    }
+}
