@@ -8,9 +8,24 @@
 
     position: relative;
 }
+.bgdiv{
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+}
 
+.loader{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
+}
 .items {
     width: 100%;
     display: flex;
