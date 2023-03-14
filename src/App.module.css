@@ -4,9 +4,10 @@
     justify-content: space-around;
     margin: 20px;
     margin-top: -1px;
-    margin-top: 50;
+    margin-top: 50px;
 
     position: relative;
+
 }
 .bgdiv{
     background-image: url('./assets/background.png');
